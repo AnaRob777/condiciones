@@ -20,20 +20,20 @@ let total = Number(valor1)+Number(valor2)+Number(valor3)
     } 
     }
 
-function pin(){
-number1 = document.getElementById("number1")
-number2 = document.getElementById("number2")
-number3 = document.getElementById("number3")
-aviso= document.getElementById('aviso')
+function pin() {
+        numero1 = document.getElementById("numero1").value;
+        numero2 = document.getElementById("numero2").value;
+        numero3= document.getElementById("numero3").value;
 
-password = (number1) + (number2) + (number3);
+        password = numero1 + numero2 + numero3;
 
-if (password==911){
-   aviso.innerHTML= 'password 1 correcto'
-}
-else if (password==714){
-   aviso.innerHTML= 'password 2 correcto'
-}
-else{
-    aviso.innerHTML='password incorrecto'
-}}
+        aviso = document.getElementById("aviso");
+
+        if (password == "911") {
+            aviso.innerHTML = "password 1 correcto";
+        } else if (password == "714") {
+            aviso.innerHTML = "password 2 correcto";
+        } else {
+            aviso.innerHTML = "password incorrecto";
+        }
+    }
