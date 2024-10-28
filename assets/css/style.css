@@ -1,0 +1,37 @@
+.gatito{
+    width: 200px;
+}
+.stickers{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carita{
+    width: 200px;
+    padding: 20px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+button{
+ margin: 20px;
+}
+.selects{
+    margin: 10px;
+}
+.pass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#respuesta{
+    display: flex;
+    justify-content: center;
+}
